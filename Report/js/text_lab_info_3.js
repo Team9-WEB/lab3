@@ -649,8 +649,105 @@ function bohdan(){
     changeText(text);
 }
 
+function mainsite(){
+    const text = `<h1>Сайт</h1>
+        <p style="width: 100%">Вигляд</p>
+        <img src="lab_img/site.png">
+        <p style="width: 100%">HTML-код</p>
+        <xmp style="text-align:justify; background-color:whitesmoke;">
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <link rel="stylesheet"  href="css/style.css" >
+            <title>Test</title>
+        </head>
+        <body>
+        <div class="container">
+            <table cellpadding="10">
+                <tr class="unit_row">
+                    <td class="long_cell" colspan="3">
+                        <p>1</p>
+                    </td>
+                </tr>
+
+                <tr class="main_row">
+                    <td class="another_cell" id="left">
+                        <p>2</p>
+                    </td>
+                    <td class="center_cell">
+                        <p>3</p>
+                    </td >
+                    <td class="another_cell" id="right">
+                        <p>4</p>
+                    </td>
+                </tr>
+
+                <tr class="unit_row">
+                    <td class="long_cell" colspan="3">
+                        <p>5</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </body>
+        </html>
+        </xmp>
+        <p style="width: 100%">CSS-код</p>
+        <xmp style="text-align:justify; background-color:whitesmoke;">
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+        
+        }
+        .clearfix:after {
+            content: '';
+            display: table;
+            width: 100%;
+            clear: both;
+        }
+        .container {
+            height: 100vh;
+            margin: auto;
+            width: 85%;
+            align-content: center;
+        }
+        table {
+            font-size: 24px;
+            width: 100%;
+            height:100%;
+            border-spacing: 0 ;
+        }
+        .unit_row{
+            color: white;
+            width: 100%;
+            height:15%;
+        }
+        .long_cell{
+            background-color: blue;
+        }
+        .main_row{
+            text-align: center;
+            width: 100%;
+            height:70%;
+        }
+        .center_cell{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .another_cell{
+            width: 20%;
+            background-color: yellow;
+        }
+        </xmp>`;
+
+    changeText(text);
+}
+
 function itog_3() {
     const text = `<h1>Висновок</h1>
         <p style="text-align:justify;">На лабораторній роботі №3 ми ознайомилися та придбали навички роботи з версткою сторінок засобами CSS, версткою на основі плаваючих елементів, з’ясували переваги та недоліки типів макетів веб-сторінок</p>`
     changeText(text);
 }
+

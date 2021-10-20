@@ -639,11 +639,100 @@ function bohdan(){
         <img src="lab_img/bohdan_float.png">\`
         <p style="width: 100%">HTML-код</p>
         <xmp style="text-align:justify; background-color:whitesmoke;">
-        
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <link rel="stylesheet"  href="css/style.css" >
+            <title>Test</title>
+        </head>
+        <body>
+        <div class="container">
+            <div class="topbot">
+                <p>1</p>
+            </div>
+            <div id="body">
+                <div class="left">
+                    <p>2</p>
+                </div>
+                <div class="center">
+                    <p>3</p>
+                </div>
+                <div class="right">
+                    <p>4</p>
+                </div>
+            </div>
+            <div class="topbot">
+                <p>5</p>
+            </div>
+        </div>
+        </body>
+        </html>
         </xmp>
         <p style="width: 100%">CSS-код</p>
         <xmp style="text-align:justify; background-color:whitesmoke;">
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            margin: 0;
         
+        }
+        .clearfix:after {
+            content: '';
+            display: table;
+            width: 100%;
+            clear: both;
+        }
+        .container {
+            height: 100vh;
+            margin: auto;
+            width: 80%;
+            align-content: center;
+        }
+        .topbot{
+        
+            background-color: blue;
+            height: 15%;
+            width: 100%;
+        }
+        p {
+            margin: auto;
+            margin-left: 10px;
+        
+        }
+        #body{
+            height: 70%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .left {
+            padding: 0;
+            margin: 0;
+            background-color: yellow;
+            display: inline-block;
+            width: 20%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .center {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+            width: auto;
+            height: 100%;
+            overflow: hidden;
+        }
+        .right{
+            padding: 0;
+            margin: 0;
+            background-color: yellow;
+            display: inline-block;
+            width: 20%;
+            height: 100%;
+            overflow: hidden;
+            float: right;
+        }        
         </xmp>`;
 
     changeText(text);

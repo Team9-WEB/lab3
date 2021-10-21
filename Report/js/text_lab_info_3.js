@@ -745,89 +745,84 @@ function mainsite(){
         <p style="width: 100%">HTML-код</p>
         <xmp style="text-align:justify; background-color:whitesmoke;">
         <!DOCTYPE html>
-        <html>
+        <html lang="en">
         <head>
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-            <link rel="stylesheet"  href="css/style.css" >
-            <title>Test</title>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Sport is the LIFE</title>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+            <script src="js/main.js"></script>
         </head>
         <body>
-        <div class="container">
-            <table cellpadding="10">
-                <tr class="unit_row">
-                    <td class="long_cell" colspan="3">
-                        <p>1</p>
-                    </td>
-                </tr>
+            <div class="header">
 
-                <tr class="main_row">
-                    <td class="another_cell" id="left">
-                        <p>2</p>
-                    </td>
-                    <td class="center_cell">
-                        <p>3</p>
-                    </td >
-                    <td class="another_cell" id="right">
-                        <p>4</p>
-                    </td>
-                </tr>
+            </div>
 
-                <tr class="unit_row">
-                    <td class="long_cell" colspan="3">
-                        <p>5</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
+            <div class="mainbody">
+                <div class="main">
+                    
+                </div>
+
+                <div class="sidebar">
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+
+            </div>
         </body>
         </html>
         </xmp>
         <p style="width: 100%">CSS-код</p>
         <xmp style="text-align:justify; background-color:whitesmoke;">
-        body {
-            font-family: Arial, sans-serif;
+        body{
             padding: 0;
             margin: 0;
-        
-        }
-        .clearfix:after {
-            content: '';
-            display: table;
-            width: 100%;
-            clear: both;
-        }
-        .container {
+            font-family: "Trebuchet MS";
             height: 100vh;
-            margin: auto;
-            width: 85%;
-            align-content: center;
+            width: 100vw;
+            position: relative;
         }
-        table {
-            font-size: 24px;
-            width: 100%;
-            height:100%;
-            border-spacing: 0 ;
+        
+        .header{
+            position: fixed;
+            height: 10%;
+            width: 100vw;
+            background-color: lightblue;
         }
-        .unit_row{
-            color: white;
-            width: 100%;
-            height:15%;
+        
+        .footer{
+            position: absolute;
+            top: 90%;
+            height: 10%;
+            width: 100vw;
+            background-color: red;
         }
-        .long_cell{
-            background-color: blue;
+        
+        .mainbody{
+            padding-top: 12vh;
+            margin-left: 2%;
+            display: flex;
+            height: 76%;
+            width: 98%;
+            justify-content: space-between;
         }
-        .main_row{
-            text-align: center;
-            width: 100%;
-            height:70%;
+        
+        .main{
+            background-color: gray;
+            width: 80vw;
+            height: 100%;
         }
-        .center_cell{
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .another_cell{
-            width: 20%;
+        
+        .sidebar{
+            margin-left: 20px;
+            margin-right: 20px;
             background-color: yellow;
+            height: 100%;
+            width: 20%;
         }
         </xmp>`;
 

@@ -832,7 +832,24 @@ function mainsite() {
 
 function itog_3() {
     const text = `<h1>Висновок</h1>
-        <p style="text-align:justify;">На лабораторній роботі №3 ми ознайомилися та придбали навички роботи з версткою сторінок засобами CSS, версткою на основі плаваючих елементів, з’ясували переваги та недоліки типів макетів веб-сторінок</p>`
+        <p style="text-align:justify;">На лабораторній роботі №3 ми ознайомилися та придбали навички роботи з версткою сторінок засобами CSS, версткою на основі плаваючих елементів, з’ясували переваги та недоліки типів макетів веб-сторінок</p>
+        <p style="text-align:justify; font-size: 18pt; font-weight: bolder;">Таблична верстка:</p> 
+        <p style="text-align:justify; color: green; font-weight: bolder;">Переваги:</p> 
+        <p style="text-align:justify; color: green;">Таблиці не перекриваються один з одним при маленьких дозволах.</p> 
+        <p style="text-align:justify; color: green;">Легко робити кросбраузерності дизайн.</p> 
+        <p style="text-align:justify; color: green;">Набагато простіше блочної верстки.</p> 
+        <p style="text-align:justify; color: red;">Недоліки:</p> 
+        <p style="text-align:justify; color: red;">Дуже багато зайвого коду, з огляду на нескінченного створення рядків і стовпців.</p> 
+        <p style="text-align:justify; color: red;">Далеко не кожен дизайн можна створити за допомогою таблиць.</p> 
+        <p style="text-align:justify; font-size: 18pt; font-weight: bolder;">Блочна верстка:</p> 
+        <p style="text-align:justify; color: green; font-weight: bolder;">Переваги:</p> 
+        <p style="text-align:justify; color: green;">Значно менше HTML-коду і, як наслідок, зменшення ваги сторінки.</p> 
+        <p style="text-align:justify; color: green;">Блоки завантажуються швидше таблиць (особливо великих таблиць).</p> 
+        <p style="text-align:justify; color: green;">На відміну від таблиць, блоки - універсальний засіб для створення будь-якого дизайну.</p> 
+        <p style="text-align:justify; color: red;">Недоліки:</p> 
+        <p style="text-align:justify; color: red;">Набагато складніше табличній верстки.</p> 
+        <p style="text-align:justify; color: red;">Величезні проблеми з кросбраузерністю.</p> 
+        <p style="text-align:justify; color: red;">Блоки починають наїжджати (або спадати) один на одного при маленьких дозволах екрану.</p> `
     changeText(text);
 }
 

@@ -5,7 +5,7 @@ function meta_3() {
     changeText(text);
 }
 
-function vlad(){
+function vlad() {
     const text = `<h1>Влад</h1>
         <img src="lab_img/vlad_task.png">
         <p style="width: 100%">Вигляд табличної верстки</p>
@@ -244,7 +244,7 @@ function vlad(){
     changeText(text);
 }
 
-function misha(){
+function misha() {
     const text = `<h1>Міша</h1>
         <img src="lab_img/misha_task.png">
         <p style="width: 100%">Вигляд табличної верстки</p>
@@ -329,8 +329,10 @@ function misha(){
         p {
             color: white;
             font-size: 25px;
+            margin: 0;
+            padding: 0;
         }
-        
+
         .container {
             position: fixed;
             height: 100%;
@@ -360,16 +362,15 @@ function misha(){
         }
         
         ._span {
+            margin: 0 0 0 0.5%;
             text-align: center;
             float: left;
-            margin-left: 0.5%;
             width: 24.5%;
             height: 100%;
-        
         }
         
         .footer {
-            height: 12%;
+            height: 15%;
             width: 100%;
             background: orange;
         }
@@ -378,7 +379,7 @@ function misha(){
     changeText(text);
 }
 
-function denys(){
+function denys() {
     const text = `<h1>Денис</h1>
         <img src="lab_img/den_task.png">
         <p style="width: 100%">Вигляд табличної верстки</p>
@@ -542,7 +543,7 @@ function denys(){
     changeText(text);
 }
 
-function bohdan(){
+function bohdan() {
     const text = `<h1>Богдан</h1>
         <img src="lab_img/bohdan_task.png">
         <p style="width: 100%">Вигляд табличної верстки</p>
@@ -738,7 +739,7 @@ function bohdan(){
     changeText(text);
 }
 
-function mainsite(){
+function mainsite() {
     const text = `<h1>Сайт</h1>
         <p style="width: 100%">Вигляд</p>
         <img src="lab_img/site.png">

@@ -28,7 +28,7 @@ function image() {
     <p style="width: 100%">Код</p>
     <img src="../lab_img/img_code.png">
     <p style="width: 100%">Результат</p>
-     <img src="../lab_img/img.png">`
+     <img src="../lab_img/misha_float.png">`
     changeText(text)
 }
 

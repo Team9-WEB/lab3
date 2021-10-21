@@ -1,6 +1,8 @@
 p {
     color: white;
     font-size: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -32,16 +34,15 @@ p {
 }
 
 ._span {
+    margin: 0 0 0 0.5%;
     text-align: center;
     float: left;
-    margin-left: 0.5%;
     width: 24.5%;
     height: 100%;
-
 }
 
 .footer {
-    height: 12%;
+    height: 15%;
     width: 100%;
     background: orange;
 }

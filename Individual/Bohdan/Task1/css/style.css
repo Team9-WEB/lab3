@@ -60,3 +60,8 @@ p {
     overflow: hidden;
     float: right;
 }
+#task1 {
+    display: block;
+    margin: 0 auto;
+}
+
